@@ -1,0 +1,31 @@
+package org.xtext.example.mydsl;
+
+import java.util.Scanner;
+
+public class stringbuffer {
+
+	public static void main(String[] args) {
+		
+StringBuffer sb = new StringBuffer("GREATWAY TREADING AND TRANSONPATION");
+//System.out.println(sb.length());
+//System.out.println(sb.capacity());
+//System.out.println(sb.append("union city"));
+//System.out.println(sb.append(32550));
+//System.out.println(sb.insert(9,"&&"));
+//System.out.println(sb.insert(15," sooo"));
+//System.out.println(sb.insert(0,"THE"));
+//System.out.println(sb.reverse());
+//System.out.println(sb.delete(0,10));
+System.out.println(sb.replace(1,5,"its mine"));
+Scanner s= new Scanner(System.in);
+	int count=0;
+	int sum=0;
+	while(true) {
+		int order=count+1;
+		System.out.println(order);
+		break;
+	}
+	
+	}
+
+}
